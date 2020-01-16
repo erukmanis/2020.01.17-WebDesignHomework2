@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,400,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+}
+.menuIcon {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  font-size: 40px;
+}
+
+.middle {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.img-top {
+  background: url(/styles/bg.jpg) no-repeat center;
+  height: 100vh;
+  background-size: cover;
+}
+.img-top,
+.row-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  margin-top: 100px;
+}
+.row,
+.row-navin {
+  justify-content: space-between;
+}
+
+.row-nav {
+  display: flex;
+  height: 25vh;
+  align-items: center;
+}
+
+.row-navin,
+.row-descin {
+  display: flex;
+  align-items: center;
+}
+
+.col-50 {
+  width: 50%;
+}
+
+.col-50 img {
+  width: 100%;
+}
+
+.col-40 {
+  width: 40%;
+}
+
+.col-10 {
+  width: 10%;
+}
+
+.row-nav,
+.row-footer,
+.button,
+.menuIcon {
+  background-color: sandybrown;
+}
+
+h2 {
+  color: sandybrown;
+  font-size: 2.3em;
+  padding-top: 10%;
+  line-height: 1.5em;
+}
+
+p {
+  font-size: 1.2em;
+  padding-top: 10%;
+}
+
+header {
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  color: white;
+  font-size: 70px;
+  text-shadow: 3px 3px 3px rgb(202, 202, 202);
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px 2px rgb(202, 202, 202);
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  font-size: 1.4em;
+  margin-bottom: 20%;
+}
+.button {
+  display: inline-block;
+  margin-top: 20px;
+  height: 28px;
+  width: 150px;
+  border: sandybrown solid 2px;
+  border-radius: 20px;
+  transition-duration: 500ms;
+  text-align: center;
+  padding-top: 8px;
+  color: white;
+}
+
+.button:hover {
+  display: inline-block;
+  height: 28px;
+  width: 250px;
+  background-color: rgb(243, 146, 62);
+  border: sandybrown 2px solid;
+  border-radius: 20px;
+}
+h3 {
+  color: white;
+  padding-bottom: 20px;
+}
+
+ul,
+li {
+  list-style-type: none;
+  color: white;
+  padding-top: 5px;
+  font-size: 0.9em;
+}
+
+.menuIcon {
+  color: white;
+  padding: 5px;
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.row-descr {
+  background: url(/styles/footer.jpg) no-repeat center;
+  background-size: cover;
+  height: 50vh;
+  margin-top: 100px;
+}
+
+.row-footer {
+  color: white;
+  font-size: 0.5em;
+  text-align: center;
+  height: 5vh;
+  box-shadow: 0px -5px 4px rgb(237, 155, 82);
+}
