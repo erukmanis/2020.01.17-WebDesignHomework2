@@ -19,7 +19,7 @@
 }
 
 .img-top {
-  background: url(./styles/bg.jpg) no-repeat center;
+  background: url(bg.jpg) no-repeat center;
   height: 100vh;
   background-size: cover;
 }
